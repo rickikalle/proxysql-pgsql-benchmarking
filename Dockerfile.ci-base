@@ -1,0 +1,28 @@
+FROM ubuntu:24.04
+
+# Avoid prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Install dependencies for ProxySQL and testing
+RUN apt-get update && apt-get install -y \
+    mysql-client \
+    postgresql-client \
+    libssl3 \
+    libev4 \
+    libcurl4 \
+    libmicrohttpd12 \
+    libdaemon0 \
+    libconfig9 \
+    libsqlite3-0 \
+    ca-certificates \
+    curl \
+    iputils-ping \
+    net-tools \
+    procps \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create data directory
+RUN mkdir -p /var/lib/proxysql
+
+# Set entrypoint (can be overridden)
+ENTRYPOINT ["/bin/bash"]
