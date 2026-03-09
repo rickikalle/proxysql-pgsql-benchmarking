@@ -1,24 +1,100 @@
-# PostgreSQL Benchmarking Results
+# Final Benchmark Results
 
-## Environment
-- **ProxySQL**: 4.0.6-900-g9d921bd (Non-debug)
-- **PostgreSQL**: 17 (Docker)
-- **Workload**: TPC-B (pgbench)
-- **Scale**: 10
-
-## Results Matrix
-
-| Configuration | Protocol | Clients | TPS | Avg Latency | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Direct (Metal) | Simple | 16 | 8725 | 1.83 ms | Baseline |
-| ProxySQL | Simple | 16 | 6108 | 2.62 ms | ~30% Protocol Overhead |
-| ProxySQL | Extended | 16 | 7000 | 2.28 ms | ~20% Protocol Overhead |
-| ProxySQL | Extended | 128 | 6214 | 20.58 ms | Backend connection pressure |
-| ProxySQL + Mux | Extended | 128 | 7029 | 18.20 ms | **13% Improvement** via Multiplexing |
-| ProxySQL + Mux + FFTO | Extended | 128 | 6424 | 19.91 ms | FFTO overhead observed |
-
-## Observations
-1. **Extended Protocol Efficiency**: The Extended Query Protocol performs significantly better than the Simple protocol (~15% higher TPS), likely due to reduced parsing overhead on the backend and more efficient message handling in ProxySQL.
-2. **Multiplexing Impact**: At high concurrency (128 clients), enabling `pgsql-multiplex_enabled` provided a clear performance boost, bringing TPS back up to 7000+ by reducing backend connection churn.
-3. **FFTO Overhead**: In this specific TPC-B workload (which involves multiple small statements per transaction), FFTO introduced a slight latency overhead. FFTO is likely more beneficial for specific high-volume, single-query streaming patterns.
-4. **Stability**: Once the initial configuration sequence was stabilized (avoiding rapid LOAD commands during background startup), the PostgreSQL module handled 128 concurrent clients with zero failed transactions.
+[
+    {
+        "test": "direct",
+        "clients": 1,
+        "tps": 1065.087558,
+        "mode": "simple"
+    },
+    {
+        "test": "direct",
+        "clients": 16,
+        "tps": 8189.877814,
+        "mode": "simple"
+    },
+    {
+        "test": "direct",
+        "clients": 64,
+        "tps": 9654.678187,
+        "mode": "simple"
+    },
+    {
+        "test": "direct",
+        "clients": 128,
+        "tps": 9329.836488,
+        "mode": "simple"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 1,
+        "tps": 638.809915,
+        "mode": "simple"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 16,
+        "tps": 6001.921598,
+        "mode": "simple"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 64,
+        "tps": 7206.94919,
+        "mode": "simple"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 128,
+        "tps": 6708.365932,
+        "mode": "simple"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 1,
+        "tps": 645.134424,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 16,
+        "tps": 6222.540428,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 64,
+        "tps": 7548.255986,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_passthrough",
+        "clients": 128,
+        "tps": 7187.412158,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_multiplexed",
+        "clients": 1,
+        "tps": 961.002202,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_multiplexed",
+        "clients": 16,
+        "tps": 6903.287351,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_multiplexed",
+        "clients": 64,
+        "tps": 7576.498578,
+        "mode": "extended"
+    },
+    {
+        "test": "proxy_multiplexed",
+        "clients": 128,
+        "tps": 7003.314775,
+        "mode": "extended"
+    }
+]

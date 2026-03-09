@@ -1,0 +1,19 @@
+services:
+  pg_master:
+    image: postgres:17
+    container_name: benchmark_pg_master
+    environment:
+      - POSTGRES_PASSWORD=benchmark_pass
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    command: ["postgres", "-c", "max_connections=1000", "-c", "shared_buffers=1GB"]
+    networks:
+      benchmark_net:
+        ipv4_address: 172.25.0.2
+
+networks:
+  benchmark_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24

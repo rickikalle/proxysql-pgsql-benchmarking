@@ -1,0 +1,98 @@
+[
+  {
+    "test": "direct",
+    "clients": 1,
+    "tps": 1065.087558,
+    "mode": "simple"
+  },
+  {
+    "test": "direct",
+    "clients": 16,
+    "tps": 8189.877814,
+    "mode": "simple"
+  },
+  {
+    "test": "direct",
+    "clients": 64,
+    "tps": 9654.678187,
+    "mode": "simple"
+  },
+  {
+    "test": "direct",
+    "clients": 128,
+    "tps": 9329.836488,
+    "mode": "simple"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 1,
+    "tps": 638.809915,
+    "mode": "simple"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 16,
+    "tps": 6001.921598,
+    "mode": "simple"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 64,
+    "tps": 7206.94919,
+    "mode": "simple"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 128,
+    "tps": 6708.365932,
+    "mode": "simple"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 1,
+    "tps": 645.134424,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 16,
+    "tps": 6222.540428,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 64,
+    "tps": 7548.255986,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_passthrough",
+    "clients": 128,
+    "tps": 7187.412158,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_multiplexed",
+    "clients": 1,
+    "tps": 961.002202,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_multiplexed",
+    "clients": 16,
+    "tps": 6903.287351,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_multiplexed",
+    "clients": 64,
+    "tps": 7576.498578,
+    "mode": "extended"
+  },
+  {
+    "test": "proxy_multiplexed",
+    "clients": 128,
+    "tps": 7003.314775,
+    "mode": "extended"
+  }
+]

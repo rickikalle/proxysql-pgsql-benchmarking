@@ -1,0 +1,278 @@
+2026-03-09 23:23:09 [INFO] Using OpenSSL version: OpenSSL 3.0.13 30 Jan 2024
+2026-03-09 23:23:09 main.cpp:361:check_openssl_version(): [WARNING] Detected OpenSSL version has known performance regressions, please upgrade to '3.2.0' or later. For further details, please refer to: https://github.com/openssl/openssl/issues/18814
+2026-03-09 23:23:09 [INFO] Using config file /home/ricki/proxysql/test/infra/control/proxysql-ci.cnf
+2026-03-09 23:23:09 [INFO] Using jemalloc with MALLOC_CONF: config.xmalloc:1, lg_tcache_max:16, opt.prof_accum:1, opt.prof_leak:1, opt.lg_prof_sample:20, opt.lg_prof_interval:30, rc:0
+2026-03-09 23:23:09 [INFO] Current RLIMIT_NOFILE: 1048576
+2026-03-09 23:23:09 [INFO] No SSL keys/certificates found in datadir (/home/ricki/pgsql_benchmarking/proxysql_data). Generating new keys/certificates.
+2026-03-09 23:23:09 [INFO] ProxySQL version 4.0.6-900-g9d921bd
+2026-03-09 23:23:09 [INFO] Detected OS: Linux vm03 6.8.0-100-generic #100-Ubuntu SMP PREEMPT_DYNAMIC Tue Jan 13 16:40:06 UTC 2026 x86_64
+2026-03-09 23:23:09 [INFO] ProxySQL SHA1 checksum: 5f2acca085e738e7646eb91f787c9354f8206817
+2026-03-09 23:23:09 [INFO] SSL keys/certificates found in datadir (/home/ricki/pgsql_benchmarking/proxysql_data): loading them.
+Standard ProxySQL MySQL Logger rev. 2.5.0421 -- MySQL_Logger.cpp -- Mon Mar  9 21:58:39 2026
+Standard ProxySQL PgSQL Logger rev. 2.5.0421 -- PgSQL_Logger.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] Initializing GenAI Threads Handler
+2026-03-09 23:23:09 [INFO] GenAI module started with 4 workers
+2026-03-09 23:23:09 [INFO] Embedding endpoint: http://127.0.0.1:8013/embedding
+2026-03-09 23:23:09 [INFO] Rerank endpoint: http://127.0.0.1:8012/rerank
+GenAI Threads Handler rev. 0.1.0 -- GenAI_Thread.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] GenAI Threads Handler initialized
+2026-03-09 23:23:09 [INFO] AI: Initializing AI Features Manager v1.0.0
+2026-03-09 23:23:09 [INFO] AI: AI features disabled by configuration
+2026-03-09 23:23:09 [INFO] AI Features module initialized
+2026-03-09 23:23:09 [INFO] Initializing MCP Threads Handler
+MCP Threads Handler rev. 0.1.0 -- MCP_Thread.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] MCP module initialized
+Standard ProxySQL Cluster rev. 0.4.0906 -- ProxySQL_Cluster.cpp -- Mon Mar  9 21:58:39 2026
+Standard ProxySQL Statistics rev. 1.4.1027 -- ProxySQL_Statistics.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] Using UUID: 57f275e6-e95a-44b0-bbf0-6cb13aff9f30 , randomly generated. Writing it to database
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD ADMIN VARIABLES TO RUNTIME' was '0x1E81B98ADB2EC7E0', with epoch '1773098589'
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD MYSQL VARIABLES TO RUNTIME' was '0xF9DE25491104430B', with epoch '1773098589'
+Standard ProxySQL Admin rev. 2.0.6.0805 -- ProxySQL_Admin.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] ProxySQL SHA1 checksum: 5f2acca085e738e7646eb91f787c9354f8206817
+Standard MySQL Threads Handler rev. 0.2.0902 -- MySQL_Thread.cpp -- Mon Mar  9 21:58:39 2026
+Standard MySQL Authentication rev. 0.2.0902 -- MySQL_Authentication.cpp -- Mon Mar  9 20:07:03 2026
+Standard PgSQL Authentication rev. 0.1.0001 -- PgSQL_Authentication.cpp -- Mon Mar  9 20:07:03 2026
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD MYSQL USERS TO RUNTIME' was '0x0000000000000000', with epoch '1773098589'
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD PGSQL USERS TO RUNTIME' was '0x0000000000000000', with epoch '1773098589'
+2026-03-09 23:23:09 [INFO] Generating runtime mysql servers and mysql servers v2 records.
+2026-03-09 23:23:09 [INFO] Dumping mysql_servers_incoming
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname | port | gtid_port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:09 [INFO] Dumping mysql_servers LEFT JOIN mysql_servers_incoming
++-------------+--------------+----------+------+
+| mem_pointer | hostgroup_id | hostname | port |
++-------------+--------------+----------+------+
++-------------+--------------+----------+------+
+2026-03-09 23:23:09 [INFO] Dumping mysql_servers JOIN mysql_servers_incoming
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname | port | gtid_port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment | mem_pointer | gtid_port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
++--------------+----------+------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+-----------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:09 [INFO] New mysql_group_replication_hostgroups table
+2026-03-09 23:23:09 [INFO] New mysql_galera_hostgroups table
+2026-03-09 23:23:09 [INFO] New mysql_aws_aurora_hostgroups table
+2026-03-09 23:23:09 [INFO] New mysql_hostgroup_attributes table
+2026-03-09 23:23:09 [INFO] New mysql_servers_ssl_params table
+2026-03-09 23:23:09 [INFO] Checksum for table mysql_servers_v2 is 0x0000000000000000
+2026-03-09 23:23:09 [INFO] New computed global checksum for 'mysql_servers_v2' is '0x0000000000000000'
+2026-03-09 23:23:09 [INFO] Checksum for table mysql_servers is 0x0000000000000000
+2026-03-09 23:23:09 [INFO] MySQL_HostGroups_Manager::commit() locked for 0ms
+2026-03-09 23:23:09 [INFO] Generating runtime pgsql servers and pgsql servers v2 records.
+2026-03-09 23:23:09 [INFO] Dumping pgsql_servers_incoming
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname | port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:09 [INFO] Dumping pgsql_servers LEFT JOIN pgsql_servers_incoming
++-------------+--------------+----------+------+
+| mem_pointer | hostgroup_id | hostname | port |
++-------------+--------------+----------+------+
++-------------+--------------+----------+------+
+2026-03-09 23:23:09 [INFO] Dumping pgsql_servers JOIN pgsql_servers_incoming
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname | port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment | mem_pointer | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
++--------------+----------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:09 [INFO] New pgsql_hostgroup_attributes table
+2026-03-09 23:23:09 [INFO] Checksum for table pgsql_servers_v2 is 0x0000000000000000
+2026-03-09 23:23:09 [INFO] New computed global checksum for 'pgsql_servers_v2' is '0x0000000000000000'
+2026-03-09 23:23:09 [INFO] Checksum for table pgsql_servers is 0x0000000000000000
+2026-03-09 23:23:09 [INFO] PgSQL_HostGroups_Manager::commit() locked for 0ms
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD PROXYSQL SERVERS TO RUNTIME' was '0x0000000000000000', with epoch '1773098589'
+Standard Query Processor rev. 3.0.0.0004 -- Query_Processor.cpp -- Mon Mar  9 21:58:39 2026
+Standard Query Processor rev. 3.0.0.0004 -- Query_Processor.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD MYSQL QUERY RULES TO RUNTIME' was '0x0000000000000000', with epoch '1773098589'
+2026-03-09 23:23:09 [INFO] Computed checksum for 'LOAD PGSQL QUERY RULES TO RUNTIME' was '0x0000000000000000', with epoch '1773098589'
+2026-03-09 23:23:09 main.cpp:1025:ProxySQL_Main_init_MySQL_Threads_Handler_module(): [WARNING] proxysql instance running without --idle-threads : most workloads benefit from this option
+2026-03-09 23:23:09 main.cpp:1026:ProxySQL_Main_init_MySQL_Threads_Handler_module(): [WARNING] proxysql instance running without --idle-threads : enabling it can potentially improve performance
+2026-03-09 23:23:09 main.cpp:1049:ProxySQL_Main_init_PgSQL_Threads_Handler_module(): [WARNING] proxysql instance running without --idle-threads : most workloads benefit from this option
+2026-03-09 23:23:09 main.cpp:1050:ProxySQL_Main_init_PgSQL_Threads_Handler_module(): [WARNING] proxysql instance running without --idle-threads : enabling it can potentially improve performance
+In memory Standard Query Cache (SQC) rev. 2.0.0385 -- Query_Cache.cpp -- Mon Mar  9 21:58:39 2026
+In memory Standard Query Cache (SQC) rev. 2.0.0385 -- Query_Cache.cpp -- Mon Mar  9 21:58:39 2026
+Standard MySQL Monitor (StdMyMon) rev. 2.0.1226 -- MySQL_Monitor.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] Started Monitor scheduler thread for PgSQL servers
+2026-03-09 23:23:09 [INFO] MCP_Threads_Handler: loaded 0 target auth profile mapping(s)
+Standard ProxySQL HTTP Server Handler rev. 1.4.1031 -- ProxySQL_HTTP_Server.cpp -- Mon Mar  9 21:58:39 2026
+2026-03-09 23:23:09 [INFO] For information about products and services visit: https://proxysql.com/
+2026-03-09 23:23:09 [INFO] For online documentation visit: https://proxysql.com/documentation/
+2026-03-09 23:23:09 [INFO] For support visit: https://proxysql.com/services/support/
+2026-03-09 23:23:09 [INFO] For consultancy visit: https://proxysql.com/services/consulting/
+2026-03-09 23:23:14 [INFO] Received LOAD PGSQL SERVERS TO RUNTIME command
+2026-03-09 23:23:14 [INFO] Generating runtime pgsql servers and pgsql servers v2 records.
+2026-03-09 23:23:14 [INFO] Dumping pgsql_servers_incoming
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname   | port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| 0            | 172.25.0.2 | 5432 | 1      | 0      | 0           | 1000            | 0                   | 0       | 0              |         |
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:14 [INFO] Dumping pgsql_servers LEFT JOIN pgsql_servers_incoming
++-------------+--------------+----------+------+
+| mem_pointer | hostgroup_id | hostname | port |
++-------------+--------------+----------+------+
++-------------+--------------+----------+------+
+2026-03-09 23:23:14 [INFO] Dumping pgsql_servers JOIN pgsql_servers_incoming
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| hostgroup_id | hostname   | port | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment | mem_pointer | weight | status | compression | max_connections | max_replication_lag | use_ssl | max_latency_ms | comment |
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+| 0            | 172.25.0.2 | 5432 | 1      | 0      | 0           | 1000            | 0                   | 0       | 0              |         | 0           | 1      | 0      | 0           | 1000            | 0                   | 0       | 0              |         |
++--------------+------------+------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+-------------+--------+--------+-------------+-----------------+---------------------+---------+----------------+---------+
+2026-03-09 23:23:14 [INFO] Creating new server in HG 0 : 172.25.0.2:5432 , weight=1, status=0
+2026-03-09 23:23:14 [INFO] New pgsql_hostgroup_attributes table
+2026-03-09 23:23:14 [INFO] Checksum for table pgsql_servers_v2 is 0x796246D584416796
+2026-03-09 23:23:14 [INFO] New computed global checksum for 'pgsql_servers_v2' is '0xE75B1646B9FD0E93'
+2026-03-09 23:23:14 [INFO] Checksum for table pgsql_servers is 0x796246D584416796
+2026-03-09 23:23:14 [INFO] Rebuilding 'Hostgroup_Manager_Mapping' due to checksums change - pgsql_servers { old: 0x0, new: 0x84416796796246D5 }, pgsql_replication_hostgroups { old:0x0, new:0x0 }
+2026-03-09 23:23:14 [INFO] PgSQL_HostGroups_Manager::commit() locked for 1ms
+2026-03-09 23:23:14 [INFO] Received LOAD PGSQL USERS TO RUNTIME command
+2026-03-09 23:23:14 [INFO] Computed checksum for 'LOAD PGSQL USERS TO RUNTIME' was '0x725C4BB2F05669A6', with epoch '1773098594'
+2026-03-09 23:23:14 [INFO] Received LOAD PGSQL QUERY RULES TO RUNTIME command
+2026-03-09 23:23:14 [INFO] Computed checksum for 'LOAD PGSQL QUERY RULES TO RUNTIME' was '0x0000000000000000', with epoch '1773098594'
+2026-03-09 23:23:14 [INFO] Received LOAD PGSQL VARIABLES TO RUNTIME command
+2026-03-09 23:23:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:52598
+2026-03-09 23:23:17 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:23:25 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:23:33 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:23:41 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:23:49 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:23:57 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:05 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:13 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:40018
+2026-03-09 23:24:21 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:29 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:37 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:45 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:24:53 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:01 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:09 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:09 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:40096
+2026-03-09 23:25:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:40156
+2026-03-09 23:25:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:40028
+2026-03-09 23:25:15 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:40036
+2026-03-09 23:25:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54526
+2026-03-09 23:25:17 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:25 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:33 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:41 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:49 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:25:57 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:05 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:13 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54584
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54936
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54890
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54646
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54910
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54640
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54738
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54610
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54724
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54776
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54790
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:55038
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54598
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54534
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54828
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54942
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54662
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54538
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:55110
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54878
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54964
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:55000
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:55078
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54632
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54570
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54886
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54796
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:54798
+2026-03-09 23:26:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42688
+2026-03-09 23:26:21 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:29 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:37 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:45 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:26:53 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:27:01 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:27:09 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:27:09 PgSQL_Monitor.cpp:775:handle_async_connect_cont(): [ERROR] Monitor connect failed   addr='172.25.0.2:5432' error='FATAL:  password authentication failed for user "monitor"'
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43026
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43304
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43678
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43100
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43430
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43710
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42690
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43142
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43242
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42716
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43090
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42934
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43514
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43554
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43766
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43592
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43726
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42986
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42692
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43252
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42854
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43578
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42866
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42892
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43102
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43076
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43646
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43002
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43486
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42976
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43746
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43140
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43790
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43662
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43776
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43634
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43794
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42906
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43532
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42882
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42736
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43756
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43208
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43068
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42724
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42794
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43088
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43512
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43400
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43078
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43616
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42918
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43588
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43030
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43234
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43622
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43750
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42778
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43604
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43704
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43450
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42820
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43478
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42738
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43734
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43264
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42782
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43382
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43540
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42910
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43476
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42754
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43118
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43366
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43360
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43684
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:43218
+2026-03-09 23:27:16 PgSQL_Thread.cpp:3881:process_all_sessions(): [WARNING] Closing unhealthy client connection 172.25.0.3:42984
