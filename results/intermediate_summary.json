@@ -222,5 +222,61 @@
     "tps": 6899.555418,
     "mode": "extended",
     "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 1,
+    "tps": 716.925228,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 16,
+    "tps": 6240.087966,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 64,
+    "tps": 7389.260744,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 128,
+    "tps": 6932.93014,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 1,
+    "tps": 767.894921,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 16,
+    "tps": 5763.315422,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 64,
+    "tps": 7093.598077,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "proxysql_ffto",
+    "clients": 128,
+    "tps": 6809.264517,
+    "mode": "extended",
+    "ssl": false
   }
 ]
