@@ -278,5 +278,61 @@
     "tps": 6809.264517,
     "mode": "extended",
     "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 1,
+    "tps": 871.61456,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 16,
+    "tps": 5624.74398,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 64,
+    "tps": 5489.167744,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 128,
+    "tps": 5381.482432,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 1,
+    "tps": 769.279795,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 16,
+    "tps": 5422.273718,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 64,
+    "tps": 5338.010117,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "pgbouncer",
+    "clients": 128,
+    "tps": 5239.359313,
+    "mode": "extended",
+    "ssl": false
   }
 ]
