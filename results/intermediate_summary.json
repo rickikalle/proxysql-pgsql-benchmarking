@@ -1,0 +1,58 @@
+[
+  {
+    "comp": "direct",
+    "clients": 1,
+    "tps": 1045.224328,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 1,
+    "tps": 1052.194161,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 16,
+    "tps": 8167.464306,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 16,
+    "tps": 7637.4245,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 64,
+    "tps": 9578.651042,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 64,
+    "tps": 9309.444564,
+    "mode": "extended",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 128,
+    "tps": 9362.958268,
+    "mode": "simple",
+    "ssl": false
+  },
+  {
+    "comp": "direct",
+    "clients": 128,
+    "tps": 8951.064861,
+    "mode": "extended",
+    "ssl": false
+  }
+]
