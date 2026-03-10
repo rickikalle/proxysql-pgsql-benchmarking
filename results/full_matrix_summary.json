@@ -1,0 +1,962 @@
+[
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 1154.955441
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 8254.910167
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 9524.119687
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 9220.578577
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 8490.817362
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 935.821804
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 7373.294371
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 8638.179841
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 8215.529489
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 7660.299056
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 983.962301
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 7573.707813
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 9185.253886
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 9038.123878
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 8214.136648
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 846.864948
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 6899.971444
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 8152.604107
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 7954.404601
+  },
+  {
+    "comp": "direct",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 7323.344723
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 828.992843
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 4378.619687
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 4221.094511
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 4204.431797
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 4023.033267
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 792.314739
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 3895.902686
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 3769.834399
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 3923.91759
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 3952.410135
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "pgbouncer",
+    "mode": "n/a",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 860.558601
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": false,
+    "clients": 1,
+    "tps": 704.78787
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 6897.509172
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": false,
+    "clients": 16,
+    "tps": 6813.359299
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 8206.354677
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": false,
+    "clients": 64,
+    "tps": 7960.596968
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 7798.376222
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": false,
+    "clients": 128,
+    "tps": 7605.639974
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 6942.526447
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": false,
+    "clients": 256,
+    "tps": 6745.904104
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 694.134947
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": true,
+    "clients": 1,
+    "tps": 638.237595
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 5826.892137
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": true,
+    "clients": 16,
+    "tps": 5769.443458
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 6899.72876
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": true,
+    "clients": 64,
+    "tps": 6793.358815
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 6627.215951
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": true,
+    "clients": 128,
+    "tps": 6460.084678
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 5882.214836
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "simple",
+    "tls": true,
+    "clients": 256,
+    "tps": 5805.2483
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 792.479625
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": false,
+    "clients": 1,
+    "tps": 619.11177
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 6721.315769
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": false,
+    "clients": 16,
+    "tps": 6514.498418
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 7865.451613
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": false,
+    "clients": 64,
+    "tps": 7770.270847
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 7450.061819
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": false,
+    "clients": 128,
+    "tps": 7280.656875
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 6753.258505
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": false,
+    "clients": 256,
+    "tps": 6469.006099
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 624.489279
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": true,
+    "clients": 1,
+    "tps": 612.504164
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 5708.420309
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": true,
+    "clients": 16,
+    "tps": 5607.560502
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 6770.480036
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": true,
+    "clients": 64,
+    "tps": 6670.817072
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 6469.667577
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": true,
+    "clients": 128,
+    "tps": 6305.587022
+  },
+  {
+    "comp": "proxysql",
+    "mode": "basic",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "multiplexed",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 0.0
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ff",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 5790.040341
+  },
+  {
+    "comp": "proxysql",
+    "mode": "ffto",
+    "proto": "extended",
+    "tls": true,
+    "clients": 256,
+    "tps": 5629.66728
+  }
+]
