@@ -1,0 +1,62 @@
+[
+  {
+    "scenario": "No SSL",
+    "clients": 1,
+    "tps": 1028.818657
+  },
+  {
+    "scenario": "No SSL",
+    "clients": 64,
+    "tps": 7667.993632
+  },
+  {
+    "scenario": "No SSL",
+    "clients": 128,
+    "tps": 3837.657131
+  },
+  {
+    "scenario": "Backend SSL only",
+    "clients": 1,
+    "tps": 893.382524
+  },
+  {
+    "scenario": "Backend SSL only",
+    "clients": 64,
+    "tps": 7488.733905
+  },
+  {
+    "scenario": "Backend SSL only",
+    "clients": 128,
+    "tps": 3350.759642
+  },
+  {
+    "scenario": "Frontend SSL only",
+    "clients": 1,
+    "tps": 953.430614
+  },
+  {
+    "scenario": "Frontend SSL only",
+    "clients": 64,
+    "tps": 7469.820641
+  },
+  {
+    "scenario": "Frontend SSL only",
+    "clients": 128,
+    "tps": 3245.953852
+  },
+  {
+    "scenario": "Full E2E SSL",
+    "clients": 1,
+    "tps": 891.793042
+  },
+  {
+    "scenario": "Full E2E SSL",
+    "clients": 64,
+    "tps": 2786.886484
+  },
+  {
+    "scenario": "Full E2E SSL",
+    "clients": 128,
+    "tps": 4205.632893
+  }
+]
