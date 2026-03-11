@@ -1,0 +1,962 @@
+[
+  {
+    "test_id": "direct_simple_tlsFalse_c1",
+    "tps": 1026.604248
+  },
+  {
+    "test_id": "direct_simple_tlsFalse_c16",
+    "tps": 8322.915404
+  },
+  {
+    "test_id": "direct_simple_tlsFalse_c64",
+    "tps": 9772.140259
+  },
+  {
+    "test_id": "direct_simple_tlsFalse_c128",
+    "tps": 9420.053307
+  },
+  {
+    "test_id": "direct_simple_tlsFalse_c256",
+    "tps": 8670.053061
+  },
+  {
+    "test_id": "direct_simple_tlsTrue_c1",
+    "tps": 931.809302
+  },
+  {
+    "test_id": "direct_simple_tlsTrue_c16",
+    "tps": 7395.101341
+  },
+  {
+    "test_id": "direct_simple_tlsTrue_c64",
+    "tps": 8680.705438
+  },
+  {
+    "test_id": "direct_simple_tlsTrue_c128",
+    "tps": 8370.757095
+  },
+  {
+    "test_id": "direct_simple_tlsTrue_c256",
+    "tps": 7692.588411
+  },
+  {
+    "test_id": "direct_extended_tlsFalse_c1",
+    "tps": 990.371574
+  },
+  {
+    "test_id": "direct_extended_tlsFalse_c16",
+    "tps": 8002.409189
+  },
+  {
+    "test_id": "direct_extended_tlsFalse_c64",
+    "tps": 9378.425745
+  },
+  {
+    "test_id": "direct_extended_tlsFalse_c128",
+    "tps": 9015.588359
+  },
+  {
+    "test_id": "direct_extended_tlsFalse_c256",
+    "tps": 8324.226578
+  },
+  {
+    "test_id": "direct_extended_tlsTrue_c1",
+    "tps": 901.70031
+  },
+  {
+    "test_id": "direct_extended_tlsTrue_c16",
+    "tps": 7145.325051
+  },
+  {
+    "test_id": "direct_extended_tlsTrue_c64",
+    "tps": 8318.976744
+  },
+  {
+    "test_id": "direct_extended_tlsTrue_c128",
+    "tps": 8052.580794
+  },
+  {
+    "test_id": "direct_extended_tlsTrue_c256",
+    "tps": 7452.878124
+  },
+  {
+    "test_id": "direct_prepared_tlsFalse_c1",
+    "tps": 1182.879069
+  },
+  {
+    "test_id": "direct_prepared_tlsFalse_c16",
+    "tps": 8906.318668
+  },
+  {
+    "test_id": "direct_prepared_tlsFalse_c64",
+    "tps": 10642.602616
+  },
+  {
+    "test_id": "direct_prepared_tlsFalse_c128",
+    "tps": 10227.899211
+  },
+  {
+    "test_id": "direct_prepared_tlsFalse_c256",
+    "tps": 9388.374315
+  },
+  {
+    "test_id": "direct_prepared_tlsTrue_c1",
+    "tps": 1062.493148
+  },
+  {
+    "test_id": "direct_prepared_tlsTrue_c16",
+    "tps": 7944.631631
+  },
+  {
+    "test_id": "direct_prepared_tlsTrue_c64",
+    "tps": 9308.797027
+  },
+  {
+    "test_id": "direct_prepared_tlsTrue_c128",
+    "tps": 9051.252828
+  },
+  {
+    "test_id": "direct_prepared_tlsTrue_c256",
+    "tps": 8309.90751
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsFalse_c1",
+    "tps": 844.924816
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsFalse_c16",
+    "tps": 4254.381678
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsFalse_c64",
+    "tps": 4161.099295
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsFalse_c128",
+    "tps": 4139.430907
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsFalse_c256",
+    "tps": 4073.664162
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_simple_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsFalse_c1",
+    "tps": 771.148796
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsFalse_c16",
+    "tps": 4137.319991
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsFalse_c64",
+    "tps": 4052.787195
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsFalse_c128",
+    "tps": 4062.861666
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsFalse_c256",
+    "tps": 3984.130361
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_extended_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsFalse_c1",
+    "tps": 866.456384
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsFalse_c16",
+    "tps": 3476.772683
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "pgbouncer_prepared_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsFalse_c1",
+    "tps": 866.477066
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsFalse_c1",
+    "tps": 731.670938
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsFalse_c1",
+    "tps": 652.54934
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsFalse_c1",
+    "tps": 848.654701
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsFalse_c16",
+    "tps": 7007.551857
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsFalse_c16",
+    "tps": 6731.547938
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsFalse_c16",
+    "tps": 6954.879445
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsFalse_c16",
+    "tps": 6816.297758
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsFalse_c64",
+    "tps": 8202.766086
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsFalse_c64",
+    "tps": 8037.066078
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsFalse_c64",
+    "tps": 8181.128247
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsFalse_c64",
+    "tps": 8088.006212
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsFalse_c128",
+    "tps": 7780.131845
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsFalse_c128",
+    "tps": 7650.956602
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsFalse_c128",
+    "tps": 7738.016926
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsFalse_c128",
+    "tps": 7603.646525
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsFalse_c256",
+    "tps": 6923.566767
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsFalse_c256",
+    "tps": 6808.856902
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsFalse_c256",
+    "tps": 6926.266602
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsFalse_c256",
+    "tps": 6837.379731
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsTrue_c1",
+    "tps": 748.692655
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsTrue_c1",
+    "tps": 718.067566
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsTrue_c1",
+    "tps": 733.990491
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsTrue_c1",
+    "tps": 705.917965
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsTrue_c16",
+    "tps": 5897.537885
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsTrue_c16",
+    "tps": 5726.249379
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsTrue_c16",
+    "tps": 5910.834225
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsTrue_c16",
+    "tps": 5728.53507
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsTrue_c64",
+    "tps": 7037.913942
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsTrue_c64",
+    "tps": 6878.660684
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsTrue_c64",
+    "tps": 6989.005529
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsTrue_c64",
+    "tps": 6838.44448
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsTrue_c128",
+    "tps": 6579.998373
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsTrue_c128",
+    "tps": 6504.591129
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsTrue_c128",
+    "tps": 6500.474468
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsTrue_c128",
+    "tps": 6491.709714
+  },
+  {
+    "test_id": "proxysql_basic_simple_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_simple_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_simple_tlsTrue_c256",
+    "tps": 5957.505348
+  },
+  {
+    "test_id": "proxysql_ffto_simple_tlsTrue_c256",
+    "tps": 5825.951447
+  },
+  {
+    "test_id": "proxysql_mux_ff_simple_tlsTrue_c256",
+    "tps": 5952.256202
+  },
+  {
+    "test_id": "proxysql_mux_ffto_simple_tlsTrue_c256",
+    "tps": 5842.681337
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsFalse_c1",
+    "tps": 785.679531
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsFalse_c1",
+    "tps": 730.373877
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsFalse_c1",
+    "tps": 801.932937
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsFalse_c1",
+    "tps": 766.903014
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsFalse_c16",
+    "tps": 6735.892715
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsFalse_c16",
+    "tps": 6579.663814
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsFalse_c16",
+    "tps": 6719.021413
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsFalse_c16",
+    "tps": 6543.817551
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsFalse_c64",
+    "tps": 7939.321128
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsFalse_c64",
+    "tps": 7753.141956
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsFalse_c64",
+    "tps": 7916.619942
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsFalse_c64",
+    "tps": 7765.653262
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsFalse_c128",
+    "tps": 7546.406045
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsFalse_c128",
+    "tps": 7396.572616
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsFalse_c128",
+    "tps": 7511.128709
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsFalse_c128",
+    "tps": 7388.121051
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsFalse_c256",
+    "tps": 6781.491273
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsFalse_c256",
+    "tps": 6644.740192
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsFalse_c256",
+    "tps": 6706.476378
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsFalse_c256",
+    "tps": 6600.604924
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsTrue_c1",
+    "tps": 626.499163
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsTrue_c1",
+    "tps": 693.20153
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsTrue_c1",
+    "tps": 699.980025
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsTrue_c1",
+    "tps": 695.985471
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsTrue_c16",
+    "tps": 5640.47466
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsTrue_c16",
+    "tps": 5601.942943
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsTrue_c16",
+    "tps": 5628.853252
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsTrue_c16",
+    "tps": 5564.303898
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsTrue_c64",
+    "tps": 6781.218246
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsTrue_c64",
+    "tps": 6667.143063
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsTrue_c64",
+    "tps": 6758.557889
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsTrue_c64",
+    "tps": 6620.994649
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsTrue_c128",
+    "tps": 6420.699373
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsTrue_c128",
+    "tps": 6247.521542
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsTrue_c128",
+    "tps": 6445.274928
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsTrue_c128",
+    "tps": 6293.472925
+  },
+  {
+    "test_id": "proxysql_basic_extended_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_extended_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_extended_tlsTrue_c256",
+    "tps": 5791.320029
+  },
+  {
+    "test_id": "proxysql_ffto_extended_tlsTrue_c256",
+    "tps": 5650.671835
+  },
+  {
+    "test_id": "proxysql_mux_ff_extended_tlsTrue_c256",
+    "tps": 5753.889337
+  },
+  {
+    "test_id": "proxysql_mux_ffto_extended_tlsTrue_c256",
+    "tps": 5642.672027
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsFalse_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsFalse_c1",
+    "tps": 945.562867
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsFalse_c1",
+    "tps": 927.436772
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsFalse_c1",
+    "tps": 860.676242
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsFalse_c1",
+    "tps": 928.557555
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsFalse_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsFalse_c16",
+    "tps": 7643.727438
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsFalse_c16",
+    "tps": 7406.358328
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsFalse_c16",
+    "tps": 7470.737014
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsFalse_c16",
+    "tps": 7312.272719
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsFalse_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsFalse_c64",
+    "tps": 8835.887396
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsFalse_c64",
+    "tps": 8602.937603
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsFalse_c64",
+    "tps": 8820.715106
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsFalse_c64",
+    "tps": 8598.76454
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsFalse_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsFalse_c128",
+    "tps": 8379.84315
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsFalse_c128",
+    "tps": 8159.636238
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsFalse_c128",
+    "tps": 8362.485451
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsFalse_c128",
+    "tps": 8186.962449
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsFalse_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsFalse_c256",
+    "tps": 7480.116687
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsFalse_c256",
+    "tps": 7261.05496
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsFalse_c256",
+    "tps": 7421.22459
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsFalse_c256",
+    "tps": 7302.189805
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsTrue_c1",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsTrue_c1",
+    "tps": 802.846125
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsTrue_c1",
+    "tps": 756.36572
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsTrue_c1",
+    "tps": 762.340671
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsTrue_c1",
+    "tps": 716.692711
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsTrue_c16",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsTrue_c16",
+    "tps": 6382.868976
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsTrue_c16",
+    "tps": 6205.287867
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsTrue_c16",
+    "tps": 6057.723528
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsTrue_c16",
+    "tps": 6222.097674
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsTrue_c64",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsTrue_c64",
+    "tps": 7552.16016
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsTrue_c64",
+    "tps": 7252.559062
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsTrue_c64",
+    "tps": 7381.707429
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsTrue_c64",
+    "tps": 7305.886701
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsTrue_c128",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsTrue_c128",
+    "tps": 7095.934302
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsTrue_c128",
+    "tps": 6874.587557
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsTrue_c128",
+    "tps": 6993.970065
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsTrue_c128",
+    "tps": 6871.963291
+  },
+  {
+    "test_id": "proxysql_basic_prepared_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_multiplexed_prepared_tlsTrue_c256",
+    "tps": 0.0
+  },
+  {
+    "test_id": "proxysql_ff_prepared_tlsTrue_c256",
+    "tps": 6182.683381
+  },
+  {
+    "test_id": "proxysql_ffto_prepared_tlsTrue_c256",
+    "tps": 6079.433905
+  },
+  {
+    "test_id": "proxysql_mux_ff_prepared_tlsTrue_c256",
+    "tps": 6207.453229
+  },
+  {
+    "test_id": "proxysql_mux_ffto_prepared_tlsTrue_c256",
+    "tps": 6050.675602
+  }
+]
