@@ -1,0 +1,3 @@
+
+pgbench: error: connection to server at "172.25.0.3", port 6432 failed: server does not support SSL, but SSL was required
+pgbench: error: could not create connection for setup

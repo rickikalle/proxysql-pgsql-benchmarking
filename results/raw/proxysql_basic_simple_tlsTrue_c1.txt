@@ -1,0 +1,19 @@
+pgbench (17.9 (Debian 17.9-1.pgdg13+1), server 16.1)
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 10
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+duration: 180 s
+number of transactions actually processed: 12833
+number of failed transactions: 0 (0.000%)
+latency average = 1.425 ms
+latency stddev = 0.220 ms
+initial connection time = 21.217 ms
+tps = 701.690191 (without initial connection time)
+
+starting vacuum...end.
+progress: 10.0 s, 677.8 tps, lat 1.472 ms stddev 0.289, 0 failed
+pgbench: error: client 0 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: Run was aborted; the above results are incomplete.

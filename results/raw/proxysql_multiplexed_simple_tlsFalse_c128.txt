@@ -1,0 +1,253 @@
+pgbench (17.9 (Debian 17.9-1.pgdg13+1), server 16.1)
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 10
+query mode: simple
+number of clients: 128
+number of threads: 16
+maximum number of tries: 1
+duration: 180 s
+number of transactions actually processed: 1146921
+number of failed transactions: 0 (0.000%)
+latency average = 11.640 ms
+latency stddev = 61.810 ms
+initial connection time = 431.715 ms
+tps = 6368.601439 (without initial connection time)
+
+starting vacuum...end.
+progress: 10.0 s, 6904.9 tps, lat 17.688 ms stddev 23.420, 0 failed
+pgbench: error: client 57 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 108 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 28 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 42 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 111 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 38 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 70 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 125 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 24 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 20.0 s, 6631.4 tps, lat 17.183 ms stddev 33.164, 0 failed
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 47 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 106 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 49 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 65 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 86 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 16 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 59 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 6 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 71 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 30.0 s, 6190.3 tps, lat 20.786 ms stddev 111.526, 0 failed
+pgbench: error: client 110 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 113 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 37 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 66 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 33 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 40.0 s, 6596.5 tps, lat 16.256 ms stddev 70.111, 0 failed
+pgbench: error: client 20 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 53 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 94 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 127 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 29 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 50.0 s, 6698.4 tps, lat 15.107 ms stddev 58.130, 0 failed
+pgbench: error: client 58 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 124 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 40 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 120 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 119 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 39 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+progress: 60.0 s, 5363.8 tps, lat 15.566 ms stddev 81.437, 0 failed
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 100 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 85 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 84 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 50 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 90 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 93 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 95 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 36 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 11 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 70.0 s, 6060.7 tps, lat 17.319 ms stddev 108.384, 0 failed
+pgbench: error: client 18 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 8 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: pgbench: error: client 43 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+client 109 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 92 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 64 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 80.0 s, 6801.1 tps, lat 12.011 ms stddev 56.409, 0 failed
+pgbench: error: client 41 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 96 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 63 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 68 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 114 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 17 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 90.0 s, 6844.8 tps, lat 10.881 ms stddev 48.303, 0 failed
+pgbench: error: client 98 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 115 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 46 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+progress: 100.0 s, 5741.1 tps, lat 11.144 ms stddev 62.937, 0 failed
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 19 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 91 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 1 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 56 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 30 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 22 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 110.0 s, 6626.1 tps, lat 11.426 ms stddev 76.904, 0 failed
+pgbench: error: client 48 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 9 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 31 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 126 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 105 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 73 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 117 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 120.0 s, 6855.5 tps, lat 8.774 ms stddev 48.580, 0 failed
+pgbench: error: client 61 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 54 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 27 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 44 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 2 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 89 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 69 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 130.0 s, 6934.5 tps, lat 7.462 ms stddev 30.571, 0 failed
+pgbench: error: client 23 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 104 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 107 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 83 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 51 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+pgbench: error: client 21 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 123 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 12 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 88 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 87 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 52 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 140.0 s, 5499.7 tps, lat 7.549 ms stddev 56.924, 0 failed
+pgbench: error: client 82 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 74 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 75 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 150.0 s, 6444.1 tps, lat 6.328 ms stddev 54.082, 0 failed
+pgbench: error: client 0 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 76 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 81 aborted in command 8 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 55 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 160.0 s, 6537.0 tps, lat 5.170 ms stddev 40.070, 0 failed
+pgbench: error: client 67 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 97 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 60 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 79 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 101 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 77 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+progress: 170.0 s, 6593.0 tps, lat 4.170 ms stddev 30.154, 0 failed
+pgbench: error: client 25 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 15 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 35 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 32 aborted in command 6 (SQL) of script 0; perhaps the backend died while processing
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: client 13 aborted in command 9 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 112 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 116 aborted in command 5 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 62 aborted in command 10 (SQL) of script 0; perhaps the backend died while processing
+pgbench: error: client 10 aborted in command 7 (SQL) of script 0; perhaps the backend died while processing
+progress: 180.0 s, 5368.0 tps, lat 3.689 ms stddev 32.323, 0 failed
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+WARNING:  there is no transaction in progress
+pgbench: error: Run was aborted; the above results are incomplete.

@@ -1,0 +1,195 @@
+pgbench (17.9 (Debian 17.9-1.pgdg13+1))
+transaction type: <builtin: TPC-B (sort of)>
+scaling factor: 10
+query mode: prepared
+number of clients: 128
+number of threads: 16
+maximum number of tries: 1
+duration: 180 s
+number of transactions actually processed: 20
+number of failed transactions: 0 (0.000%)
+latency average = 240550.333 ms
+latency stddev = 2.911 ms
+initial connection time = 12.544 ms
+tps = 0.083141 (without initial connection time)
+
+starting vacuum...end.
+NOTICE:  No server connection available in postgres backend, client being queued
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 58 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 10 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 42 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 114 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 66 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 106 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 90 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 18 aborted in command 4 (SQL) of script 0; SQL command send failed
+error: client 122 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 98 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 50 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 74 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 35 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench:pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 27 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 3 aborted in command 4 (SQL) of script 0; SQL command send failed
+ error: client 82 aborted in command 4 (SQL) of script 0; SQL command send failed
+NOTICE:  No server connection available in postgres backend, client being queued
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 59 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: pgbench:pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 11 aborted in command 4 (SQL) of script 0; SQL command send failed
+error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 43 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 67 aborted in command 4 (SQL) of script 0; SQL command send failed
+ error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench:pgbench:pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 91 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 19 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 99 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 123 aborted in command 4 (SQL) of script 0; SQL command send failed
+ error: client 115 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 75 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: client 107 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench:pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 28 aborted in command 4 (SQL) of script 0; SQL command send failed
+ pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 36 aborted in command 4 (SQL) of script 0; SQL command send failed
+pgbench: error: FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 4 aborted in command 4 (SQL) of script 0; SQL command send failed
+error: client 51 aborted in command 4 (SQL) of script 0; SQL command send failed
+FATAL:  query_wait_timeout
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+pgbench: error: client 83 aborted in command 4 (SQL) of script 0; SQL command send failed
+progress: 240.5 s, 0.0 tps, lat 0.000 ms stddev 0.000, 0 failed
+pgbench: error: client 9 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 41 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 97 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 89 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 65 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 17 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: pgbench: error: client 113 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 105 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+client 121 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: pgbench: error: client 81 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+client 49 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 73 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 2 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 26 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: client 34 script 0 aborted in command 4 query 0: FATAL:  query_wait_timeout
+pgbench: error: Run was aborted; the above results are incomplete.
